@@ -15,12 +15,17 @@ ricorda di modificare dataset, e variabile animal in base a quale dataset vuoi r
 
 https://www.kaggle.com/code/edoardonegri/image2dream
 
+## DreamBooth LoRa
 
-
-
-## dreambooth-lora-experiments 
-link: https://www.kaggle.com/code/defne1818/dreambooth-lora-experiments:
 user should create Huggin Face token and W&B API KEY:
+
+### DreamBooth-lora-single-use
+
+notebook for fine-tuning with LoRa with a set of images:
+link: https://www.kaggle.com/code/defne1818/dreambooth-lora-single-use
+
+### dreambooth-lora-experiments 
+link: https://www.kaggle.com/code/defne1818/dreambooth-lora-experiments:
 
 
 dataset 1: https://www.kaggle.com/datasets/khushikhushikhushi/dog-breed-image-dataset  -> folder /Golden_Retriever
