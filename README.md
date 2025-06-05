@@ -10,3 +10,5 @@
 
 
 -Image2Dream:  modifica dataset, e variabile animal
+
+https://www.kaggle.com/code/edoardonegri/image2dream
