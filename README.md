@@ -16,7 +16,7 @@ https://www.kaggle.com/code/edoardonegri/image2dream
 
 
 
-dreambooth-lora-experiments[]:
+dreambooth-lora-experiments[https://www.kaggle.com/code/defne1818/dreambooth-lora-experiments]:
 user should create Huggin Face token and W&B API KEY:
 
 
