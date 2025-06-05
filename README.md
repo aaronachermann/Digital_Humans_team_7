@@ -16,17 +16,9 @@ https://www.kaggle.com/code/edoardonegri/image2dream
 
 
 
-lora:
+dreambooth-lora-experiments[]:
 user should create Huggin Face token and W&B API KEY:
 
-"""
-# Use your Hugging Face token for login
-login(token="[YOUR_HF_TOKEN]")
-
-# Set the W&B configuration via environment variables
-os.environ["WANDB_MODE"] = "online"  
-os.environ["WANDB_API_KEY"] = "[YOUR_W&B_API_KEY]"  # Replace with your W&B API key 
-"""
 
 dataset 1: https://www.kaggle.com/datasets/khushikhushikhushi/dog-breed-image-dataset  -> folder /Golden_Retriever
 dataset 2: https://www.kaggle.com/datasets/rajnishe/facescrub-full -> folder /Bill_Cosby
