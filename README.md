@@ -15,6 +15,11 @@ ricorda di modificare dataset, e variabile animal in base a quale dataset vuoi r
 
 https://www.kaggle.com/code/edoardonegri/image2dream
 
+## DreamBooth (without LoRa)
+
+notebook for fine-tuning with DreamBooth with a set of images + inference:
+link: https://www.kaggle.com/code/defne1818/dreambooth-single-use
+
 ## DreamBooth LoRa
 
 user should create Huggin Face token and W&B API KEY:
