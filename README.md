@@ -9,14 +9,16 @@
 
 
 
--Image2Dream:  modifica dataset, e variabile animal
+## Image2Dream:  
+
+ricorda di modificare dataset, e variabile animal in base a quale dataset vuoi runnare
 
 https://www.kaggle.com/code/edoardonegri/image2dream
 
 
 
 
-dreambooth-lora-experiments[https://www.kaggle.com/code/defne1818/dreambooth-lora-experiments]:
+## dreambooth-lora-experiments[https://www.kaggle.com/code/defne1818/dreambooth-lora-experiments]:
 user should create Huggin Face token and W&B API KEY:
 
 
