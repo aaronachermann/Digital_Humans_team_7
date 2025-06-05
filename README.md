@@ -1,5 +1,7 @@
 # Digital_Humans_team_7
 
+citiamo anche il Hugging Face repository di DreamBooth (da cui abbiamo preso tutti i script per fine-tuning): https://github.com/huggingface/diffusers/tree/main/examples/dreambooth
+
 ## Image datasets
 
 - calico cat (5 images): https://www.kaggle.com/datasets/defne1818/calico-cat
