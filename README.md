@@ -93,101 +93,6 @@ We evaluate our methods on diverse datasets:
 | `dreambooth-lora-experiments.ipynb` | Comprehensive parameter study | Research and optimization |
 | `image2dream.ipynb` | Image2Dream pipeline | Novel embedding approach |
 
-# Digital Humans - Team 7: Text-to-Image Generation Research
-
-A comprehensive research project exploring advanced text-to-image generation techniques using DreamBooth and novel Image2Dream methodology for personalized image synthesis.
-
-## Overview
-
-This repository contains the implementation and experimental results for our Digital Humans course project, focusing on personalized text-to-image generation. We explore two main approaches:
-
-1. **DreamBooth Fine-tuning**: Traditional and LoRA-based fine-tuning of Stable Diffusion models
-2. **Image2Dream**: A novel approach for learning personalized embeddings from image collections
-
-## 🚀 Key Features
-
-- **Multiple DreamBooth Implementations**: Support for both traditional and LoRA-based fine-tuning
-- **Image2Dream Pipeline**: Custom projection model for mapping CLIP image embeddings to Stable Diffusion text space
-- **Comprehensive Experiments**: Systematic evaluation across different datasets and hyperparameters
-- **Ready-to-Use Notebooks**: Kaggle-compatible notebooks for easy experimentation
-
-## 📁 Repository Structure
-
-```
-Digital_Humans_team_7/
-├── notebooks/
-│   ├── dreambooth-single-use.ipynb           # Basic DreamBooth fine-tuning
-│   ├── dreambooth-lora-single-use.ipynb      # LoRA-based DreamBooth
-│   ├── dreambooth-lora-experiments.ipynb     # Comprehensive parameter study
-│   └── image2dream.ipynb                     # Image2Dream implementation
-├── outputs/                                  # Generated images and results
-├── report.pdf                               # Detailed research report
-├── LICENSE                                  # MIT License
-└── README.md                               # This file
-```
-
-## 🛠 Methods
-
-### DreamBooth Fine-tuning
-
-DreamBooth enables personalization of text-to-image diffusion models using just 3-5 images of a subject. We implement:
-
-- **Traditional DreamBooth**: Full model fine-tuning with prior preservation
-- **DreamBooth + LoRA**: Parameter-efficient fine-tuning using Low-Rank Adaptation
-- **Hyperparameter Optimization**: Systematic study of learning rates, training steps, and dataset sizes
-
-### Image2Dream
-
-Our novel approach that learns to map collections of images to personalized text embeddings:
-
-1. **Projection Learning**: Train a neural network to map CLIP image embeddings to Stable Diffusion text space
-2. **Embedding Aggregation**: Experiment with different pooling strategies (mean, median, quantiles) to combine multiple image embeddings
-3. **Distance Metrics**: Evaluate cosine similarity, Euclidean, and Manhattan distance for optimal embedding selection
-
-## 📊 Datasets
-
-We evaluate our methods on diverse datasets:
-
-- **Calico Cats**: [5 images](https://www.kaggle.com/datasets/defne1818/calico-cat) | [25 images](https://www.kaggle.com/datasets/defne1818/calico-25)
-- **Golden Retrievers**: [Dog breed dataset](https://www.kaggle.com/datasets/eward96/dog-breed-images)
-- **Pugs**: [Dog breed dataset](https://www.kaggle.com/datasets/eward96/dog-breed-images)
-- **Human Faces**: [FaceScrub dataset](https://www.kaggle.com/datasets/rajnishe/facescrub-full)
-
-## 🔧 Setup and Usage
-
-### Prerequisites
-
-- Python 3.8+
-- CUDA-compatible GPU (recommended)
-- Hugging Face account and token
-- Weights & Biases account (for experiment tracking)
-
-### Quick Start
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/Digital_Humans_team_7.git
-   cd Digital_Humans_team_7
-   ```
-
-2. **Set up credentials**:
-   - Create a Hugging Face token: https://huggingface.co/settings/tokens
-   - Create a W&B API key: https://wandb.ai/authorize
-
-3. **Run experiments**:
-   - Upload notebooks to Kaggle or your preferred environment
-   - Update credential placeholders in the notebooks
-   - Select your dataset and run the cells
-
-### Notebook Descriptions
-
-| Notebook | Description | Use Case |
-|----------|-------------|----------|
-| `dreambooth-single-use.ipynb` | Basic DreamBooth implementation | Quick prototyping |
-| `dreambooth-lora-single-use.ipynb` | LoRA-based fine-tuning | Memory-efficient training |
-| `dreambooth-lora-experiments.ipynb` | Comprehensive parameter study | Research and optimization |
-| `image2dream.ipynb` | Image2Dream pipeline | Novel embedding approach |
-
 ### Configuration Requirements
 
 #### DreamBooth Single Use (`dreambooth-single-use.ipynb`)
@@ -243,55 +148,6 @@ We evaluate our methods on diverse datasets:
 | `new_token` | Custom token identifier | `"[V]"` |
 | `N_EPOCHS` | Training epochs for projection | `2000` |
 
-## 📈 Results
-
-Our experiments demonstrate:
-
-- **DreamBooth LoRA** achieves comparable results to full fine-tuning with significantly reduced computational requirements
-- **Image2Dream** successfully learns personalized embeddings that generalize to new contexts
-- **Optimal hyperparameters** vary by dataset, with learning rates between 1e-6 and 5e-6 showing best results
-
-Detailed results and analysis are available in our [research report](report.pdf).
-
-## 🎯 Generated Examples
-
-The `outputs/` directory contains sample generations across different methods and datasets, showcasing the quality and diversity of our approaches.
-
-## 🤝 Contributing
-
-This is a research project for academic purposes. If you find our work interesting and want to build upon it:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your improvements
-4. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Hugging Face Diffusers**: Our implementations build upon the excellent [DreamBooth examples](https://github.com/huggingface/diffusers/tree/main/examples/dreambooth)
-- **Stable Diffusion**: Based on the foundational work by Stability AI
-- **CLIP**: Utilizes OpenAI's CLIP model for image-text understanding
-
-## 📚 Citation
-
-If you use this work in your research, please cite our report:
-
-```bibtex
-@techreport{digital_humans_team7_2025,
-  title={Text-to-Image Generation with DreamBooth and Image2Dream},
-  author={Digital Humans Team 7},
-  year={2025},
-  institution={Your Institution}
-}
-```
-
-## 📞 Contact
-
-For questions about this research, please refer to our detailed [report](report.pdf) or open an issue in this repository.
 ## Results
 
 Detailed results and analysis are available in our [research report](report.pdf).
@@ -300,7 +156,7 @@ Detailed results and analysis are available in our [research report](report.pdf)
 
 The `outputs/` directory contains sample generations across different methods and datasets, showcasing the quality and diversity of our approaches.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -311,12 +167,12 @@ If you use this work in your research, please cite our report:
 ```bibtex
 @techreport{digital_humans_team7_2025,
   title={Text-to-Image Generation with DreamBooth and Image2Dream},
-  author={Aaron Achermann, Defne Kurtulus, Edoardo Negri},
+  author={Defne Kurtulus, Edoardo Negri,Aaron Achermann},
   year={2025},
-  institution={Your Institution}
+  institution={ETH}
 }
 ```
 
-##  Contact
+## Contact
 
 For questions about this research, please refer to our detailed [report](report.pdf) or open an issue in this repository.
