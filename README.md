@@ -6,7 +6,7 @@ A comprehensive research project exploring advanced text-to-image generation tec
 
 This repository contains the implementation and experimental results for our Digital Humans course project, focusing on personalized text-to-image generation. We explore two main approaches:
 
-1. **DreamBooth Fine-tuning**: Traditional and LoRA-based fine-tuning of Stable Diffusion models
+1. **DreamBooth Fine-tuning**: Traditional and LoRA-based fine-tuning of Stable Diffusion models, using the DreamBooth frameworks provided by [link](https://github.com/huggingface/diffusers/tree/main/examples/dreambooth)
 2. **Image2Dream**: A novel approach for learning personalized embeddings from image collections
 
 ## Key Features
